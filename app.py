@@ -33,6 +33,12 @@ page_icon= "Images/Favicon.png",
 )
 
 
+
+    
+# Getting API_KEYS
+api_key = os.environ.get("api_key")
+api_secret = os.environ.get("api_secret")
+
 col1, col2, col3 = st.beta_columns([1,2,1])
 col1.write("")
 col2.image("Images/logo.png", width = 500)
@@ -113,10 +119,7 @@ elif choice == "Viewer":
     df = yf.download(option,start= start_date,end = end_date, progress=False)
     return df
   
-    
-  # Getting API_KEYS
-  api_key = os.environ.get("api_key")
-  api_secret = os.environ.get("api_secret")
+
 
 
   # Function for getting tweets
