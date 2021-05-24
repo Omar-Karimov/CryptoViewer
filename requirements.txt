@@ -10,3 +10,4 @@ yfinance==0.1.59
 fbprophet==0.6
 googlenews==1.5.8
 ta==0.7.0
+pystan==2.19.1.1
