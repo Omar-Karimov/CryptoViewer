@@ -27,21 +27,21 @@ st.set_page_config(
 layout="wide",  
 initial_sidebar_state="auto",
 page_title= "CryptoViewer",  
-page_icon= "Favicon.png", 
+page_icon= "Images/Favicon.png", 
 )
 
 
 col1, col2, col3 = st.beta_columns([1,2,1])
 col1.write("")
-col2.image("logo.png", width = 500)
+col2.image("Images/logo.png", width = 500)
 col3.write("")
 
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-main_bg = "BACK.png"
-main_bg_ext = "BACK.png"
+main_bg = "Images/BACK.png"
+main_bg_ext = "Images/BACK.png"
 
 
 st.markdown(
@@ -83,10 +83,10 @@ if choice == "Home":
 
 
 
-  st.image("How.png", width = 1300)
+  st.image("Images/How.png", width = 1300)
 
   
-  st.image("info.png", width = 400)
+  st.image("Images/info.png", width = 400)
  
 
 
