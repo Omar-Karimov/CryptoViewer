@@ -8,7 +8,6 @@ import re
 import numpy as np
 import streamlit as st
 import matplotlib.pyplot as plt
-import seaborn as sns
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
