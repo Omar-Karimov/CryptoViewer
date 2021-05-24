@@ -57,7 +57,7 @@ st.markdown(
 )
 
 
-st.sidebar.image("Sidebar.png", width = 330)
+st.sidebar.image("Images/Sidebar.png", width = 330)
 
 
 menu = ["Home", "Viewer"]
