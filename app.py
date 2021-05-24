@@ -3,6 +3,7 @@ import pandas as pd
 import tweepy
 from textblob  import TextBlob
 from wordcloud import WordCloud
+import plotly.graph_objs as go
 import os
 import re
 import pystan
