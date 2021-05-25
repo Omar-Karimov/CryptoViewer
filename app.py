@@ -94,7 +94,7 @@ if choice == "Home":
   st.image("Images/How.png", width = 1300)
 
   
-  st.image("Images/info.png", width = 400)
+  st.sidebar.image("Images/info.png", width = 300)
  
 
 
