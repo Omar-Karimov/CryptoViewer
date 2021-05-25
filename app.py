@@ -35,6 +35,8 @@ page_icon= "Images/Favicon.png",
 
 
 
+api_key = os.environ.get("api_key")
+api_secret = os.environ.get("api_secret")
     
 
 col1, col2, col3 = st.beta_columns([1,2,1])
