@@ -16,6 +16,8 @@ CryptoViewer is platform for quick and effective analysis of the crypto market. 
 
 ![2021-05-25 (5)](https://user-images.githubusercontent.com/68358028/119540248-4bda1d00-bd9e-11eb-8d81-bbea653cb4b1.png)
 
-![2021-05-25 (6)](https://user-images.githubusercontent.com/68358028/119540357-68765500-bd9e-11eb-87f1-a24ed36b9d3c.png)
+![2021-05-25 (6)](https://user-images.githubusercontent.com/68358028/119540863-f8b49a00-bd9e-11eb-9b5c-862a4b712a2f.png)
 
-![2021-05-25 (7)](https://user-images.githubusercontent.com/68358028/119540427-7d52e880-bd9e-11eb-90e3-d316f7c45113.png)
+![2021-05-25 (8)](https://user-images.githubusercontent.com/68358028/119540922-09fda680-bd9f-11eb-864a-0e8e14f9332b.png)
+
+
