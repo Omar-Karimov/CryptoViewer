@@ -127,7 +127,7 @@ elif choice == "Viewer":
   # Create authentication
   @st.cache(allow_output_mutation = True)  
   def get_tweets(key, secret, search_term):
-    authentication = tweepy.auth.OAuthHandler(api_key, api_secret)
+    authentication = tweepy.OAuthHandler(api_key, api_secret)
     api = tweepy.API(authentication)
     term = search_term+"-filter:retweets"
     # Create a cursor object 
