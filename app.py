@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 import pandas as pd
 import tweepy
@@ -6,7 +7,6 @@ from wordcloud import WordCloud
 import plotly.graph_objs as go
 import os
 import re
-from __future__ import print_function
 import pystan
 import numpy as np
 import streamlit as st
