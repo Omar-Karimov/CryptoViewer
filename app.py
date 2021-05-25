@@ -927,7 +927,7 @@ elif choice == "Viewer":
   st.write("  ")
 
 
-  df = get_tweets(api_key, api_secret, "#cryptocurrency")
+  df = get_tweets("api_key", "api_secret", "#cryptocurrency")
   df["Tweets"] = df["Tweets"].apply(Clean)
   df["Subjectivity"] = df["Tweets"].apply(subjectivity)
   df["Polarity"] = df["Tweets"].apply(polarity)
