@@ -36,9 +36,6 @@ page_icon= "Images/Favicon.png",
 
 
     
-# Getting API_KEYS
-api_key = os.environ.get("api_key")
-api_secret = os.environ.get("api_secret")
 
 col1, col2, col3 = st.beta_columns([1,2,1])
 col1.write("")
@@ -128,7 +125,7 @@ elif choice == "Viewer":
   # Function for getting tweets
   # Create authentication
   @st.cache(allow_output_mutation = True)  
-  def get_tweets(api_key, api_secret, search_term):
+  def get_tweets(key, secret, search_term):
     authentication = tweepy.auth.OAuthHandler(api_key, api_secret)
     api = tweepy.API(authentication)
     term = search_term+"-filter:retweets"
