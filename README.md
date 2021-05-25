@@ -1,6 +1,15 @@
 # CryptoViewer
 CryptoViewer is platform for quick and effective analysis of the crypto market. CryptoViewer is a special web service that allows you to view cryptocurrencies by many useful methods (technical indicators, graphical patterns, sentimental analysis, and more).
 
+
+##### CryptoViewer provides for traders and investors:
+* General information about top cryptocurrencies.
+* Technical analysis tools - MACD, RSI, Bollinger Bands.
+* Forecasting using Facebook Prophet library.
+* Latest news about cryptocurrencies.
+* Sentiment Analysis with tweepy and wordcloud libraries.
+
+
 * Deployed at https://cryptoviewer-app.herokuapp.com/
 
 ![2021-05-25](https://user-images.githubusercontent.com/68358028/119539781-acb52580-bd9d-11eb-9184-9192536d70be.png)
