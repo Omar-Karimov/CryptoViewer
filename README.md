@@ -10,7 +10,7 @@ CryptoViewer is platform for quick and effective analysis of the crypto market. 
 * Sentiment Analysis with tweepy and wordcloud libraries.
 
 
-* Deployed at https://cryptoviewer-app.herokuapp.com/
+### Deployed at https://cryptoviewer-app.herokuapp.com/
 
 ![2021-05-25](https://user-images.githubusercontent.com/68358028/119539781-acb52580-bd9d-11eb-9184-9192536d70be.png)
 
